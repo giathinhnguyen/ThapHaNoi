@@ -9,6 +9,8 @@ void thap(int n,char nguon,char giua,char dich){
         thap(n-1,giua,nguon,dich);// n-1 dia tren tu cot giua ve dich
     }
 }
+
+// ham chinh
 int main(){
     int n;
     cin>>n;
